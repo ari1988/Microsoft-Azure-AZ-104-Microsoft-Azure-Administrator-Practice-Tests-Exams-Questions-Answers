@@ -64,7 +64,7 @@
 | 56  | [You manage two Azure subscriptions named Subscription1 and Subscription2. Subscription1 has following virtual networks: The virtual networks contain the following subnets: Subscription2 contains the following virtual network: Name: VNETA. Address space: 10.10.128.0/17. Location: Canada Central VNETA contains the following subnets: VNET1 and VNET2 can be peered.](#you-manage-two-azure-subscriptions-named-subscription1-and-subscription2-subscription1-has-following-virtual-networks-the-virtual-networks-contain-the-following-subnets-subscription2-contains-the-following-virtual-network-name-vneta-address-space-1010128017-location-canada-central-vneta-contains-the-following-subnets-vnet1-and-vnet2-can-be-peered)
 | 57  | [You manage two Azure subscriptions named Subscription1 and Subscription2. Subscription1 has following virtual networks: The virtual networks contain the following subnets: Subscription2 contains the following virtual network: Name: VNETA. Address space: 10.10.128.0/17. Location: Canada Central VNETA contains the following subnets:VNET1 and VNETA can be peered.](#you-manage-two-azure-subscriptions-named-subscription1-and-subscription2-subscription1-has-following-virtual-networks-the-virtual-networks-contain-the-following-subnets-subscription2-contains-the-following-virtual-network-name-vneta-address-space-1010128017-location-canada-central-vneta-contains-the-following-subnetsvnet1-and-vneta-can-be-peered)
 | 58  | [You have an Azure subscription that contains the resources in the following table. VM1 and VM2 are deployed from the same template and host line-of-business applications accessed by using Remote Desktop. You configure the network security group (NSG) shown in the exhibit. You need to prevent users of VM1 and VM2 from accessing websites on the Internet. What should you do?](#you-have-an-azure-subscription-that-contains-the-resources-in-the-following-table-vm1-and-vm2-are-deployed-from-the-same-template-and-host-line-of-business-applications-accessed-by-using-remote-desktop-you-configure-the-network-security-group-nsg-shown-in-the-exhibit-you-need-to-prevent-users-of-vm1-and-vm2-from-accessing-websites-on-the-internet-what-should-you-do)
-| 59  | [You have an Azure subscription named Subcription1 that contains a resource group named RG1. In RG1. you create an internal load balancer named LB1 and a public load balancer named LB2. You need to ensure that an administrator named Admin 1 can manage LB1 and LB2. The solution must follow the principle of least privilege. Which role should you assign to Admin1 for each task?](#you-have-an-azure-subscription-named-subcription1-that-contains-a-resource-group-named-rg1-in-rg1-you-create-an-internal-load-balancer-named-lb1-and-a-public-load-balancer-named-162-you-need-to-ensure-that-an-administrator-named-admin-1-can-manage-lb1-and-lb2-the-solution-must-follow-the-principle-of-least-privilege-which-role-should-you-assign-to-admin1-for-each-task)
+| 59  | [You have an Azure subscription named Subcription1 that contains a resource group named RG1. In RG1. you create an internal load balancer named LB1 and a public load balancer named 162. You need to ensure that an administrator named Admin 1 can manage LB1 and LB2. The solution must follow the principle of least privilege. Which role should you assign to Admin1 for each task?](#you-have-an-azure-subscription-named-subcription1-that-contains-a-resource-group-named-rg1-in-rg1-you-create-an-internal-load-balancer-named-lb1-and-a-public-load-balancer-named-162-you-need-to-ensure-that-an-administrator-named-admin-1-can-manage-lb1-and-lb2-the-solution-must-follow-the-principle-of-least-privilege-which-role-should-you-assign-to-admin1-for-each-task)
 | 60  | [You plan to deploy several Azure virtual machines that will run Windows Server 2019 in a virtual machine scale set by using an Azure Resource Manager template. You need to ensure that NGINX is available on all the virtual machines after they are deployed. What should you use?](#you-plan-to-deploy-several-azure-virtual-machines-that-will-run-windows-server-2019-in-a-virtual-machine-scale-set-by-using-an-azure-resource-manager-template-you-need-to-ensure-that-nginx-is-available-on-all-the-virtual-machines-after-they-are-deployed-what-should-you-use)
 | 61  | [You have an Azure subscription named Subscription1 that contains the resources shown in the following table. You plan to configure Azure Backup reports for Vault1. You are configuring the Diagnostics settings for the AzureBackupReports log. Which storage accounts and which Log Analytics workspaces can you use for the Azure Backup reports of Vault1?](#you-have-an-azure-subscription-named-subscription1-that-contains-the-resources-shown-in-the-following-table-you-plan-to-configure-azure-backup-reports-for-vault1-you-are-configuring-the-diagnostics-settings-for-the-azurebackupreports-log-which-storage-accounts-and-which-log-analytics-workspaces-can-you-use-for-the-azure-backup-reports-of-vault1)
 | 62  | [You have several Azure virtual machines on a virtual network named VNet1. You configure an Azure Storage account as shown in the following exhibit.](#you-have-several-azure-virtual-machines-on-a-virtual-network-named-vnet1-you-configure-an-azure-storage-account-as-shown-in-the-following-exhibit)
@@ -693,7 +693,7 @@
 - [ ] Change the DenyWebSites outbound security rule.
 - [ ] Change the Port_80 inbound security rule.
 
-### You have an Azure subscription named Subcription1 that contains a resource group named RG1. In RG1. you create an internal load balancer named LB1 and a public load balancer named LB2. You need to ensure that an administrator named Admin 1 can manage LB1 and LB2. The solution must follow the principle of least privilege. Which role should you assign to Admin1 for each task?
+### You have an Azure subscription named Subcription1 that contains a resource group named RG1. In RG1. you create an internal load balancer named LB1 and a public load balancer named 162. You need to ensure that an administrator named Admin 1 can manage LB1 and LB2. The solution must follow the principle of least privilege. Which role should you assign to Admin1 for each task?
 ![Question 57](images/question57.jpg)
 - [x] Box 1: Network Contributor on RG1. Box 2: Network Contributor on RG1.
 - [ ] Box 1: Owner on LB1. Box 2: Owneron LB2.
@@ -2047,3 +2047,231 @@ cRedeploy App1
 - [x] Gateway Subnet
 - [ ] Subnet0
 - [ ] Subnet1 and Subnet2
+
+### You create a virtual machine scale set named Scale1. Scale1 is configured as shown in the following exhibit. Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
+
+[Question 246](images/question246_1.jpg)
+[Question 246](images/question246_2.jpg)
+
+- [x] If Scale1 is unitilized at 85 percent for six minutes, Scale will be running [answer choice]: 4 virtual machines. If Scale1 is first utilized at 25 percent for six minutes, and then utilized at 50 percent for six minutes, Scale1 will be running [answer choice]: 4 virtual machines.
+- [ ] If Scale1 is unitilized at 85 percent for six minutes, Scale will be running [answer choice]: 2 virtual machines. If Scale1 is first utilized at 25 percent for six minutes, and then utilized at 50 percent for six minutes, Scale1 will be running [answer choice]: 6 virtual machines.
+- [ ] If Scale1 is unitilized at 85 percent for six minutes, Scale will be running [answer choice]: 6 virtual machines. If Scale1 is first utilized at 25 percent for six minutes, and then utilized at 50 percent for six minutes, Scale1 will be running [answer choice]: 10 virtual machines.
+- [ ] If Scale1 is unitilized at 85 percent for six minutes, Scale will be running [answer choice]: 10 virtual machines. If Scale1 is first utilized at 25 percent for six minutes, and then utilized at 50 percent for six minutes, Scale1 will be running [answer choice]: 20 virtual machines.
+
+### You need to ensure that VM1 can communicate with VM4. The solution must minimize administrative effort. What should you do?
+
+- [ ] Create 2 user-defined route from VNET1 to VNET3.
+- [x] Assign VM4 an IP address of 10.0.1.5/24.
+- [ ] Establish peering between VNET1 and VNET3.
+- [ ] Create an NSG and associate the NSG to VMI and VM4.
+
+### You have an Active Directory domain named contoso.com that contains the objects shown in the following table. The groups have the memberships shown in the following table. OU1 and OU2 are synced to Azure Active Directory (Azure AD). You modify the synchronization settings and remove OU1 from synchronization. You sync Active Directory and Azure AD. Which objects are in Azure AD?
+
+[Question 248](images/question248_1.jpg)
+[Question 248](images/question248_2.jpg)
+
+- [ ] User4 and Group2 only.
+- [ ] User2, Group1, User4, and Group2 only.
+- [x] User1, User2, Group1, User4, and Group2 only.
+- [ ] User1, User2, User3, User4, Group1, and Group2.
+
+### You have an Azure subscription that contains the following resources: ✑ 100 Azure virtual machines ✑ 20 Azure SQL databases ✑ 50 Azure file shares You need to create a daily backup of all the resources by using Azure Backup. What is the minimum number of backup policies that you must create?
+
+- [ ] 1
+- [ ] 2
+- [x] 3
+- [ ] 150
+- [ ] 170
+
+### You create an Azure VM named VM1 that runs Windows Server 2019. VM1 is configured as shown in the exhibit. (Click the Exhibit button.) You need to enable Desired State Configuration for VM1. What should you do first?
+
+[Question 250](images/question250.jpg)
+
+- [ ] Configure a DNS name for VM1.
+- [x] Start VM1.
+- [ ] Connect to VM1.
+- [ ] Capture a snapshot of VM1.
+
+### You have an Azure subscription that contains an Azure file share. You have an on-premises server named Server1 that runs Windows Server 2016. You plan to set up Azure File Sync between Server1 and the Azure file share. You need to prepare the subscription for the planned Azure File Sync. Which two actions should you perform in the Azure subscription? To answer, drag the appropriate actions to the correct targets. Each action may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content. Explanation: As per the official MS doc: The recommended steps to onboard on Azure File Sync for the first with zero downtime while preserving full file fidelity and access control list (ACL) are as follows:
+
+[Question 251](images/question251.jpg)
+
+- [x] Create a Storage Sync Service First action: Create a Storage Sync Service.
+- [x] Create a sync group Second action: Create a sync group Second.
+- [ ] Install the Azure File Sync agent.
+- [ ] Run Server Registration.
+
+### You have an Azure policy as shown in the following exhibit. What is the effect of the policy? Which of the following statements are true?
+
+[Question 252](images/question252.jpg)
+
+- [x] You can create Azure SQL servers in ContosoRG1 only.
+- [ ] You are prevented from creating Azure SQL servers anywhere in Subscription 1.
+- [ ] You are prevented from creating Azure SQL Servers in ContosoRG1 only.
+- [ ] You can create Azure SQL servers in any resource group within Subscription 1.
+
+### You have an Azure subscription that contains an Azure Availability Set named WEBPROD-AS-USE2 as shown in the following exhibit. You add 14 virtual machines to WEBPROD-AS-USE2. Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic. NOTE: Each correct selection is worth one point. Explanation: Box 1: 2 There are 10 update domains. The 14 VMs are shared across the 10 update domains so four update domains will have two VMs and six update domains will have one VM. Only one update domain is rebooted at a time. Therefore, a maximum of two VMs will be offline. Box 2: 7 There are 2 fault domains. The 14 VMs are shared across the 2 fault domains, so 7 VMs in each fault domain. A rack failure will affect one fault domain so 7 VMs will be offline.
+
+[Question 253](images/question253_1.jpg)
+[Question 253](images/question253_2.jpg) 
+
+### When Microsoft performs planned maintenance in East US 2, the maximum number of unavailable virtual machines will be [answer choice].
+
+- [x] 2.
+- [ ] 7.
+- [ ] 10.
+- [ ] 14.
+
+### If the server rack in the Azure datacenter that hosts WEBDROD-AS-USE2 experiences a power failure, the maximum number of unavailable virtual machines will be [answer choice].
+
+- [ ] 2.
+- [x] 7.
+- [ ] 10.
+- [ ] 14.
+
+### You need to prepare the environment to ensure that the web administrators can deploy the web apps as quickly as possible. Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order. Explanation: Scenario:
+
+[Question 254](images/question254.png) 
+
+- [x] Box 1: Create a resource group, and then deploy a web app to the resource group. Box 2: From the Automation scnpt blade of the resource group, click Add to library. Box 3: From the Templates service, select the template, and then share the template to the web administrators.
+- [ ] Box 1: From the Automation scnpt blade of the resource group, click Add to library. Box 2: Create a resource group, and then deploy a web app to the resource group. Box 3: From the Automation script blade of the resource group, click the Parameters tab.
+- [ ] Box 1: From the Automation script blade of the resource group, click Deploy. Box 2: From the Automation Accounts service, add an automation account. Box 3: From the Automation script blade of the resource group, click Deploy.
+- [ ] Box 1: From the service, select the template, and then share the template to the web administrators. Box 2: From the Automation Accounts service, add an automation account. Box 3: Create a resource group, and then deploy a web app to the resource group.
+
+### You have an Azure subscription that contains the following users in an Azure Active Directory tenant named contoso.onmicrosoft.com: User1 creates a new Azure Active Directory tenant named external.contoso.onmicrosoft.com. You need to create new user accounts in external.contoso.com.onmicrosoft.com. Solution: You instruct User1 to create the user accounts.
+
+[Question 257](images/question257.png) 
+
+- [x] Yes.
+- [ ] No.
+
+### You have two Azure virtual machines named VM1 and VM2. You have two Recovery Services vaults named RSV1 and RSV2. VM2 is protected by RSV1. You need to use RSV2 to protect VM2. What should you do first? Reference: https://docs.microsoft.com/en-us/azure/site-recovery/azure-to-azure-quickstart https://docs.microsoft.com/en-us/azure/site-recovery/azure-to-azure-tutorial-enable-replication
+
+[Question 258](images/question258.png)
+
+- [ ] From the RSV1 blade, click Backup items and stop the VM2 backup.
+- [ ] From the RSV1 blade, click Backup Jobs and export the VM2 backup.
+- [ ] From the RSV1 blade, click Backup. From the Backup blade, select the backup for the virtual machine, and then click Backup.
+- [x] From the VM2 blade, click Disaster recovery, click Replication settings, and then select RSV2 as the Recovery Services vault.
+
+### You have an Azure subscription that contains an Azure file share.You have an on-premises server named Server1 that runs Windows Server 2016. You plan to set up Azure File Sync between Server1 and the Azure file share. You need to prepare the subscription for the planned Azure File Sync. Which two actions should you perform in the Azure subscription? To answer, drag the appropriate actions to the correct targets. Each action may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content. Explanation: As per the official MS doc: The recommended steps to onboard on Azure File Sync for the first with zero downtime while preserving full file fidelity and access control list (ACL) are as follows: 
+
+[Question 259](images/question259.png)
+
+- [ ] First action: Install the Azure File Sync agent. Second action: Run Server Registration.
+- [x] First action: Create a Storage Sync Service. Second action: Create a sync group.
+- [ ] First action: Create a sync group. Second action: Create a Storage Sync Service.
+- [ ] First action: Run Server Registration. Second action: Install the Azure File Sync Service. 
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have a computer named Computer1 that has a point-to-site VPN connection to an Azure virtual network named VNet1. The point-to-site connection uses a self-signed certificate. From Azure, you download and install the VPN client configuration package on a computer named Computer2. You need to ensure that you can establish a point-to-site VPN connection to VNet1 from Computer2. Solution: You modify the Azure Active Directory (Azure AD) authentication policies. Does this meet this goal?
+
+- [ ] Yes.
+- [x] No.
+
+### You have a Microsoft 365 tenant and an Azure Active Directory (Azure AD) tenant named contoso.com. You plan to grant three users named User1, User2, and User3 access to a temporary Microsoft SharePoint document library named Library1. You need to create groups for the users. The solution must ensure that the groups are deleted automatically after 180 days. Which two groups should you create? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point.
+
+- [ ] a Security group that uses the Assigned membership type.
+- [x] an Office 365 group that uses the Assigned membership type.
+- [x] an Office 365 group that uses the Dynamic User membership type.
+- [ ] a Security group that uses the Dynamic User membership type.
+- [ ] a Security group that uses the Dynamic Device membership type.
+
+### Topic 3, Contoso Ltd Overview Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso works with partner organizations to bring products to market. Contoso products are manufactured by using blueprint files that the company authors and maintains. Existing Environment Currently, Contoso uses multiple types of servers for business operations, including the following: ✑ File servers ✑ Domain controllers ✑ Microsoft SQL Server servers Your network contains an Active Directory forest named contoso.com. All servers and client computers are joined to Active Directory. You have a public-facing application named App1. App1 is comprised of the following three tiers: ✑ A SQL database ✑ A web front end ✑ A processing middle tier Each tier is comprised of five virtual machines. Users access the web front end by using HTTPS only. Requirements Planned Changes Contoso plans to implement the following changes to the infrastructure: – Move all the tiers of App1 to Azure. – Move the existing product blueprint files to Azure Blob storage. – Create a hybrid directory to support an upcoming Microsoft Office 365 migration project. Technical Requirements Contoso must meet the following technical requirements: ✑ Move all the virtual machines for App1 to Azure. ✑ Minimize the number of open ports between the App1 tiers. ✑ Ensure that all the virtual machines for App1 are protected by backups. ✑ Copy the blueprint files to Azure over the Internet. ✑ Ensure that the blueprint files are stored in the archive storage tier. ✑ Ensure that partner access to the blueprint files is secured and temporary. ✑ Prevent user passwords or hashes of passwords from being stored in Azure. ✑ Use unmanaged standard storage for the hard disks of the virtual machines. ✑ Ensure that when users join devices to Azure Active Directory (Azure AD), the users use a mobile phone to verify their identity. Minimize administrative effort whenever possible. User Requirements Contoso identifies the following requirements for users: ✑ Ensure that only users who are part of a group named Pilot can join devices to Azure AD. ✑ Designate a new user named Admin1 as the service administrator of the Azure subscription. ✑ Admin1 must receive email alerts regarding service outages. ✑ Ensure that a new user named User3 can create network objects for the Azure subscription. HOTSPOT You need to identify the storage requirements for Contoso. For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Contoso requires a storage account that support Blob Storage.
+
+- [x] Yes.
+- [ ] No.
+ 
+### Topic 3, Contoso Ltd Overview Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso works with partner organizations to bring products to market. Contoso products are manufactured by using blueprint files that the company authors and maintains. Existing Environment Currently, Contoso uses multiple types of servers for business operations, including the following: ✑ File servers ✑ Domain controllers ✑ Microsoft SQL Server servers Your network contains an Active Directory forest named contoso.com. All servers and client computers are joined to Active Directory. You have a public-facing application named App1. App1 is comprised of the following three tiers: ✑ A SQL database ✑ A web front end ✑ A processing middle tier Each tier is comprised of five virtual machines. Users access the web front end by using HTTPS only. Requirements Planned Changes Contoso plans to implement the following changes to the infrastructure: – Move all the tiers of App1 to Azure. – Move the existing product blueprint files to Azure Blob storage. – Create a hybrid directory to support an upcoming Microsoft Office 365 migration project. Technical Requirements Contoso must meet the following technical requirements: ✑ Move all the virtual machines for App1 to Azure. ✑ Minimize the number of open ports between the App1 tiers. ✑ Ensure that all the virtual machines for App1 are protected by backups. ✑ Copy the blueprint files to Azure over the Internet. ✑ Ensure that the blueprint files are stored in the archive storage tier. ✑ Ensure that partner access to the blueprint files is secured and temporary. ✑ Prevent user passwords or hashes of passwords from being stored in Azure. ✑ Use unmanaged standard storage for the hard disks of the virtual machines. ✑ Ensure that when users join devices to Azure Active Directory (Azure AD), the users use a mobile phone to verify their identity. Minimize administrative effort whenever possible. User Requirements Contoso identifies the following requirements for users: ✑ Ensure that only users who are part of a group named Pilot can join devices to Azure AD. ✑ Designate a new user named Admin1 as the service administrator of the Azure subscription. ✑ Admin1 must receive email alerts regarding service outages. ✑ Ensure that a new user named User3 can create network objects for the Azure subscription. HOTSPOT You need to identify the storage requirements for Contoso. For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Contoso requires a storage account that support Azure Table storage.
+
+- [ ] Yes.
+- [x] No. 
+
+### Topic 3, Contoso Ltd Overview Contoso, Ltd. is a manufacturing company that has offices worldwide. Contoso works with partner organizations to bring products to market. Contoso products are manufactured by using blueprint files that the company authors and maintains. Existing Environment Currently, Contoso uses multiple types of servers for business operations, including the following: ✑ File servers ✑ Domain controllers ✑ Microsoft SQL Server servers Your network contains an Active Directory forest named contoso.com. All servers and client computers are joined to Active Directory. You have a public-facing application named App1. App1 is comprised of the following three tiers: ✑ A SQL database ✑ A web front end ✑ A processing middle tier Each tier is comprised of five virtual machines. Users access the web front end by using HTTPS only. Requirements Planned Changes Contoso plans to implement the following changes to the infrastructure: – Move all the tiers of App1 to Azure. – Move the existing product blueprint files to Azure Blob storage. – Create a hybrid directory to support an upcoming Microsoft Office 365 migration project. Technical Requirements Contoso must meet the following technical requirements: ✑ Move all the virtual machines for App1 to Azure. ✑ Minimize the number of open ports between the App1 tiers. ✑ Ensure that all the virtual machines for App1 are protected by backups. ✑ Copy the blueprint files to Azure over the Internet. ✑ Ensure that the blueprint files are stored in the archive storage tier. ✑ Ensure that partner access to the blueprint files is secured and temporary. ✑ Prevent user passwords or hashes of passwords from being stored in Azure. ✑ Use unmanaged standard storage for the hard disks of the virtual machines. ✑ Ensure that when users join devices to Azure Active Directory (Azure AD), the users use a mobile phone to verify their identity. Minimize administrative effort whenever possible. User Requirements Contoso identifies the following requirements for users: ✑ Ensure that only users who are part of a group named Pilot can join devices to Azure AD. ✑ Designate a new user named Admin1 as the service administrator of the Azure subscription. ✑ Admin1 must receive email alerts regarding service outages. ✑ Ensure that a new user named User3 can create network objects for the Azure subscription. HOTSPOT You need to identify the storage requirements for Contoso. For each of the following statements, select Yes if the statement is true. Otherwise, select No. NOTE: Contoso requires a storage account that support Azure File Storage.
+
+- [ ] Yes.
+- [x] No. 
+
+### You need to configure the Device settings to meet the technical requirements and the user requirements. Which two settings should you modify? To answer, select the appropriate settings in the answer area.
+
+[Question 265](images/question265.png)
+
+### You need to prepare the environment to meet the authentication requirements. Which two actions should you perform? Each correct answer presents part of the solution. NOTE Each correct selection is worth one point.
+
+- [ ] Azure Active Directory (AD) Identity Protection and an Azure policy.
+- [ ] a Recovery Services vault and a backup policy.
+- [x] an Azure Key Vault and an access policy.
+- [ ] an Azure Storage account and an access policy.
+
+### You have the Azure virtual machines shown in the following table A DNS service is install on VM1. You configure the DNS server settings for each virtual network as shown in the following exhibit. You need 10 ensure that all the virtual machines can resolve DNS names by using the DNS service on VM1. What should you do?
+
+[Question 267](images/question267_1.png)
+[Question 267](images/question267_2.png)
+
+- [ ] Add service endpoints on VNET2 and VNET3.
+- [x] Configure peering between VNE11, VNETT2, and VNET3.
+- [ ] Configure a conditional forwarder on VM1.
+- [ ] Add service endpoints on VNET1.
+
+### Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution. After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen. You have an Azure subscription named Subscription1 that contains the resources shown in the following table. VM1 connects to a virtual network named VNET2 by using a network interface named NIC1. You need to create a new network interface named NIC2 for VM1. Solution: You create NIC2 in RG1 and West US. Does this meet the goal?
+
+[Question 268](images/question268.png)
+
+- [x] Yes.
+- [ ] No.
+
+### You download an Azure Resource Manager template based on an existing virtual machine. The template will be used to deploy 100 virtual machines. You need to modify the template to reference an administrative password. You must prevent the password from being stored in plain text. What should you create to store the password?
+
+- [ ] Azure Active Directory (AD) Identity Protection and an Azure policy.
+- [ ] a Recovery Services vault and a backup policy.
+- [x] an Azure Key Vault and an access policy.
+- [ ] an Azure Storage account and an access policy.
+
+### You have a virtual network named VNet1 that has the configuration shown in the following exhibit. Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic. NOTE: Each correct selection is worth one point.
+
+[Question 270](images/question270_1.png)
+[Question 270](images/question270_2.png)
+
+- [x] Before a virtual machine on VNet1 can receive an IP address from 192.168.1.0/24, you must first [answer choice]. add an address space.  Before a virtual machine on VNet1 can receive an IP address from 10.2.1.0/24, you must first [answer choice]. add a subnet.
+- [ ] Before a virtual machine on VNet1 can receive an IP address from 192.168.1.0/24, you must first [answer choice]. add a network interface.Before a virtual machine on VNet1 can receive an IP address from 10.2.1.0/24, you must first [answer choice]. delete a subnet.
+- [ ] Before a virtual machine on VNet1 can receive an IP address from 192.168.1.0/24, you must first [answer choice]. add a subnet. Before a virtual machine on VNet1 can receive an IP address from 10.2.1.0/24, you must first [answer choice]. delete an address space.
+- [ ] Before a virtual machine on VNet1 can receive an IP address from 192.168.1.0/24, you must first [answer choice]. delete an address space. Before a virtual machine on VNet1 can receive an IP address from 10.2.1.0/24, you must first [answer choice]. add an address space.
+
+### Your on-premises network contains an Active Directory domain named adatum.com that is synced to Azure Active Directory (Azure AD). Password writeback is disabled.In adatum.com, you create the users shown in the following table. Which users must sign in from a computer joined to adatum.com? 
+
+[Question 271](images/question271.png)
+
+- [ ] User2 only.
+- [ ] User1 and User3 only.
+- [ ] User1, User2, and User3.
+- [ ] User2 and User3 only.
+- [x] User1 only.
+
+### You have an Azure subscription named Subscription1 that contains the resources shown in the following table. You create virtual machines in Subscription1 as shown in the following table. You plan to use Vault1 for the backup of as many virtual machines as possible. Which virtual machines can be backed up to Vault1? 
+
+[Question 272](images/question272_1.png)
+[Question 272](images/question272_2.png)
+
+- [x] VM1, VM3, VMA, and VMC only.
+- [ ] VM1 and VM3 only.
+- [ ] VM1, VM2, VM3, VMA, VMB, and VMC.
+- [ ] VM1 only.
+- [ ] VM3 and VMC only.
+
+### You have an Azure Active Directory (Azure AD) tenant named adatum.com that contains the users shown in the following table. Adatum.com has the following configurations: Users may join devices to Azure AD is set to User1. Additional local administrators on Azure AD joined devices is set to None. You deploy Windows 10 to a computer named Computer. User1 joins Computer1 to adatum.com. You need to identify which users are added to the local Administrators group on Computer1.
+
+[Question 273](images/question273.png)
+
+- [ ] User1 only.
+- [ ] User1, User2, and User3 only.
+- [x] User1 and User2 only.
+- [ ] User1, User2, User3, and User4.
+- [ ] User2 only.
+
+### You have an Azure subscription that contains an Azure file share. You have an on-premises server named Server1 that runs Windows Server 2016. You plan to set up Azure File Sync between Server1 and the Azure file share. You need to prepare the subscription for the planned Azure File Sync. Which two actions should you perform in the Azure subscription? To answer, drag the appropriate actions to the correct targets. Each action may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+
+[Question 274](images/question274.png)
+
+- [x] First action: Create a Storage Sync Service Second. Second action: Craete a sync group.
+- [ ] First action: Create a sync group. Second action: Create a Storage Sync Service.
+- [ ]
+- [ ]
